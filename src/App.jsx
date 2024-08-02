@@ -34,6 +34,7 @@ import VerifyEmail from "./pages/VerifyEmail"
 import ViewCourse from "./pages/ViewCourse"
 import { getUserDetails } from "./services/operations/profileAPI"
 import { ACCOUNT_TYPE } from "./utils/constants"
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   const dispatch = useDispatch()
@@ -155,6 +156,8 @@ function App() {
         {/* 404 Page */}
         <Route path="*" element={<Error />} />
       </Routes>
+      <Analytics/>
+
     </div>
   )
 }
