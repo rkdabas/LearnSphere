@@ -4,9 +4,9 @@ import Template from "../components/core/Auth/Template"
 function Login() {
   return (
     <Template
-      title="Welcome Back"
-      description1="Build skills for today, tomorrow, and beyond."
-      description2="Education to future-proof your career."
+      title="Demo Email and Password (LOGIN)"
+      description1="Instructor: rajatkumardabas@gmail.com , 1234"
+      description2="Student:    rajatdabas05@gmail.com   ,   1234"
       image={loginImg}
       formType="login"
     />

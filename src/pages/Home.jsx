@@ -32,16 +32,13 @@ function Home() {
 
         {/* Heading */}
         <div className="text-center text-4xl font-semibold">
-          Empower Your Future with
-          <HighlightText text={"Coding Skills"} />
+        Unlock Your Potential with
+          <HighlightText text={"Online Coding Mastery"} />
         </div>
 
         {/* Sub Heading */}
         <div className="-mt-3 w-[90%] text-center text-lg font-bold text-richblack-300">
-          With our online coding courses, you can learn at your own pace, from
-          anywhere in the world, and get access to a wealth of resources,
-          including hands-on projects, quizzes, and personalized feedback from
-          instructors.
+        Learn to code on your terms—anytime, anywhere. Dive into hands-on projects, interactive quizzes, and get real-time feedback from expert instructors to accelerate your tech journey.
         </div>
 
         {/* CTA Buttons */}
